@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.nav{
+	border: 2px solid black;
+    height: 110px;
+    width: 100%;
+    background-color: black;
+    color: white;	
+}
+
+.navmaindiv{
+/* 	border: 2px solid green; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navmaindiv div{
+/* 	border: 2px solid red	; */
+    height: 80px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homenav{
+/* 	border: 2px solid red; */
+	height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.homediv{
+/* 	border: 2px solid black; */
+	height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.homediv div{
+/* 	border: 2px solid green; */
+	height: 90px;
+    width: 30%;
+    font-size: 30px;
+    background-color: gray;
+    border-radius: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.maindiv{
+/*     border: 2px solid black; */
+    height: 450px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(72, 70, 70);
+}
+
+.maindiv div{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10%;
+    background-color: #6c737d;
+}
+
+#sub1div{
+    height: 100px;
+    width: 50%; 
+}
+
+#sub2div{
+    height: 250px;
+    width: 50%; 
+}
+
+#sub3div{
+    height: 250px;
+    width: 50%; 
+}
+
+#sub3div input{
+    width: 150px;
+    height: 25px;
+}
+
+.button{
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:hover {
+    background-color: #6a84ec;
+    box-shadow: #144bff 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button :active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
